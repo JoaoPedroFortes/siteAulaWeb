@@ -1,0 +1,30 @@
+@media screen and (min-width: 0) {
+    .menu{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        z-index: 1;
+
+    }
+    
+    .menu{
+        float: right;
+        margin-top: 1%;
+        width: 50%;
+
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) {
+    .menu{
+        float: right;
+        margin-top: 1%;
+        width: 33%;
+        min-height: 100%;
+    }
+}
